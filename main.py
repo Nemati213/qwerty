@@ -8,7 +8,7 @@ import os
 
 def PreprocessAndPredict(image):
     # Определение списка названий классов
-    class_names = ["Acne", "Eczema", "Atopic", "Psoriasis", "Tinea", "Vitiligo"]
+    class_names = ["Акне", "Экзема", "Атопический дерматит", "Псориаз", "Опоясывающий лишай", "Витилиго"]
 
     # Получение модели из репозитория GitHub
     model_url = 'https://github.com/Nemati213/Test/raw/main/6claass.h5'
